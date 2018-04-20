@@ -1,0 +1,1 @@
+# Zaklady-prediktivneho-riadenia
