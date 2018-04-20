@@ -1,2 +1,5 @@
 # ignore all Matlab autosaves
 *.asv
+
+# ignore all Matlab files that are saved just to create graphics
+*GRAPHICS*
