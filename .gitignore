@@ -3,3 +3,7 @@
 
 # ignore all Matlab files that are saved just to create graphics
 *GRAPHICS*
+
+
+# ignore unfinished or unused examples
+*NEVYUZITE*
