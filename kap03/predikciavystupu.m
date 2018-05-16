@@ -1,11 +1,11 @@
 clc; clear; clf;
 
-F=[0 1; 0 0];                        % Matica dynamiky
-G=[0 1]';                            % Matica vstupov
-H=[1 0];                             % Matica vystupov
+Phi=[0 1; 0 0];                      % Matica dynamiky
+Gamma=[0 1]';                        % Matica vstupov
+C=[1 0];                             % Matica vystupov
 x0=[1 1]'; Ts=1; np=10;              % Parametre
     
-[A,B,C,D] = c2dm(F,G,H,0,Ts);        % Diskretizacia
+[A,B,C,D] = c2dm(Phi,Gamma,C,0,Ts);  % Diskretizacia
 [M,N] = predikcia(A,B,np);           % Predikcne matice
 
 upr=ones(np,1);                      % Vstup (skok)
