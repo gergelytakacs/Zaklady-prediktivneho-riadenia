@@ -10,7 +10,7 @@ The code is commented in the Slovak language, however, may be useful to anyone.
 
 # Citation
 
-If you find the code or the book useful, please cite it as:
+If you find this repository or the book useful, please cite it as:
 
 You can also use the BiBTeX database entry:
 ```
