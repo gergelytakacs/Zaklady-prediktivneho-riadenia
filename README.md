@@ -1,6 +1,8 @@
 # Slovak
 ## Príklady pre knihu "Základy prediktívneho riadenia"
 
+## Citácia
+
 # English
 ## Examples for the book "Basics of Model Predictive Control"
 
@@ -8,7 +10,7 @@ This repository contains worked examples in model predictive control for the Slo
 
 The code is commented in the Slovak language, however, may be useful to anyone.
 
-# Citation
+## Citation
 
 If you find this repository or the book useful, please cite it as:
 
