@@ -20,13 +20,13 @@ Slovakia, 1. edition, 2018. In Slovak language. (Fundamentals of Predictive Cont
 You can also use the BiBTeX database entry:
 ```
 @BOOK{Takacs2018,
-  author =       {Gergely Tak\'{a}cs and Martin Gulan},
-  title =        {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
-  publisher =    {Spektrum STU},
-  address = 	   {Bratislava, Slovakia},
-  year =         {2018},
-  edition =		   {1.},
-  isbn =         {XXX-X-XXX},
-  note =         {In Slovak language. (Fundamentals of Predictive Control)}
+  author =        {Gergely Tak\'{a}cs and Martin Gulan},
+  title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
+  publisher =     {Spektrum STU},
+  address = 	    {Bratislava, Slovakia},
+  year =          {2018},
+  edition =	      {1.},
+  isbn =          {XXX-X-XXX},
+  note =          {In Slovak language. (Fundamentals of Predictive Control)}
 }
 ```
