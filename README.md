@@ -3,6 +3,22 @@
 
 ## Citácia
 
+Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
+
+Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018.
+
+Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
+```
+@BOOK{Takacs2018,
+  author =        {Gergely Tak\'{a}cs and Martin Gulan},
+  title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
+  publisher =     {Spektrum STU},
+  address =       {Bratislava,
+  year =          {2018},
+  edition =       {1.},
+  isbn =          {XXX-X-XXX},
+}
+
 # English
 ## Examples for the book "Basics of Model Predictive Control"
 
