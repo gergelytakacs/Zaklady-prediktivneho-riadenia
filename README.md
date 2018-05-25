@@ -18,6 +18,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
   edition =       {1.},
   isbn =          {XXX-X-XXX},
 }
+```
 
 # English
 ## Examples for the book "Basics of Model Predictive Control"
