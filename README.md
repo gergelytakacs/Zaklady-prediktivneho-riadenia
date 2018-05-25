@@ -23,9 +23,9 @@ You can also use the BiBTeX database entry:
   author =       {Gergely Tak\'{a}cs and Martin Gulan},
   title =        {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
   publisher =    {Spektrum STU},
-  address = 	 {Bratislava, Slovakia},
+  address = 	   {Bratislava, Slovakia},
   year =         {2018},
-  edition =		 {1.},
+  edition =		   {1.},
   isbn =         {XXX-X-XXX},
   note =         {In Slovak language. (Fundamentals of Predictive Control)}
 }
