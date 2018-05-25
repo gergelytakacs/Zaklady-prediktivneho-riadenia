@@ -7,3 +7,7 @@
 
 # ignore unfinished or unused examples
 *NEVYUZITE*
+
+# ignore temporary files
+*DEL*
+*TEMP*
