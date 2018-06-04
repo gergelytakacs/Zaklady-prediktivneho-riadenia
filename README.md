@@ -1,4 +1,4 @@
-﻿#Slovak
+# Po Slovenksy
 
 
 ## Príklady pre knihu "Základy prediktívneho riadenia"
