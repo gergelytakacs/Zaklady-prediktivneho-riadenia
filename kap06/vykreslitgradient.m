@@ -16,7 +16,7 @@ nf1=gradient(f, u(1));                     % Grad. u1
 nf2=gradient(f, u(2));                     % Grad. u2
 NF1 = subs(nf1, [u(1), u(2)], {U1,U2});    % Dosadenie
 NF2 = subs(nf2, [u(1), u(2)], {U1,U2});    % Dosadenie
-quiver(U1, U2, NF1, NF2);                  % Zobrazenie g.
+quiver(U1, U2, NF1, NF2);                  % Zobraz g.
 
 
 
