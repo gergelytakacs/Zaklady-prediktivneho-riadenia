@@ -1,14 +1,8 @@
-# Po Slovenksy
-
+# Po Slovensky
 
 ## Príklady pre knihu "Základy prediktívneho riadenia"
 
-
-
 ## Citácia
-
-
-
 Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
 
 Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018.
