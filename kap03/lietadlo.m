@@ -6,13 +6,13 @@ x=[0 0 0]';                   % Pociatocny stav
 np=5;                         % Horizont
 upr=u*ones(np,1);             % Buduca sekvencia vstupov
 
-Phi = [-0.313 56.7 0; -0.0139 -0.426 0; 0 56.7 0]; 
-Gamma = [0.232; 0.0203; 0];   % Matica vstupu
+Ac = [-0.313 56.7 0; -0.0139 -0.426 0; 0 56.7 0]; 
+Bc = [0.232; 0.0203; 0];      % Matica vstupu
 C = [0 0 1];                  % Matica vystupu
-b777 = ss(Phi,Gamma,C,[]);    % "Skutocna" dynamika
+b777 = ss(Ac,Bc,C,[]);        % "Skutocna" dynamika
 
 beta=0.0005;                  % Neistota modelu
-model=ss(Phi+ones(3)*beta,Gamma+ones(3,1)*beta,C,[]);
+model=ss(Ac+ones(3)*beta,Bc+ones(3,1)*beta,C,[]);
 model=c2d(model,Ts);          % Diskretizacia
 A=model.a; B=model.b;         % Matice A a B disk. mod.
 
