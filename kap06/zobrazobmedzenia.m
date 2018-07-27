@@ -14,7 +14,7 @@ H=[2  0;                            % Matica H
    0 18]
 g=[-10 54]';                        % Vektor g
 f(u) = 1/2*u'*H*u+g'*u;             % Kvadrat. funkcia
-fcontour(f,[xmin xmax]);            % Kontury
+fcontour(f,[xmin xmax]);            % Vrstevnice
 colorbar
 
 for i=1:length(bc)

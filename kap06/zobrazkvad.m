@@ -15,4 +15,4 @@ xlabel('u_1'); ylabel('u_2')        % Oznacenie osi
 zlabel('f(u)');                     % Oznacenie osi
 colorbar                            % Znacenie
 plot(uast.u1,uast.u2,'wo')          % Opt. bez obmedz.           
-fcontour(f,hranice);                % Kontury
+fcontour(f,hranice);                % Vrstevnice

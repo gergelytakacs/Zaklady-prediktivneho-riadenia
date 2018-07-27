@@ -28,3 +28,5 @@ ylabel('x_4 (rads^{-1})');
 subplot(5,1,5)              
 plot(t,zeros(length(t),1)); grid on;% Sila apl. na vozik
 xlabel('t (s)'); ylabel('u (N)');  % Oznacenie osi x a y
+
+save('param','m1','m2','l','g','b')

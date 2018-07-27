@@ -1,11 +1,11 @@
-function vykreslitkontury(H,g,hranice,level)
+function vykreslitvrstevnice(H,g,hranice,level)
 
 u = sym('u', [2 1]);                   % Nezavisla prem.
 f(u) = 1/2*u'*H*u+g'*u;                % Kvadrat. funk.
 nablaf=gradient(f,u);                  % Gradient f(u)
 uast=solve(nablaf==0);                 % Vyries pre u
 
-fcontour(f,hranice,'LevelStep',level); % Kontury f(u)
+fcontour(f,hranice,'LevelStep',level); % Vrstevnice f(u)
 colorbar                               % Legenda kont.
 grid on;                               % Mriezka
 hold on;                               % Podrzanie grafu

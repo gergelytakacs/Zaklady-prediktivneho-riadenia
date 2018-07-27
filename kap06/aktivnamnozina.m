@@ -7,7 +7,7 @@ clc; clear; close all;
 H=[2  0; 0 18]; g=[-10 -54]';          % Povodny probl.
 Ac=[-1  0;  0 -1;  1  1]; bc=[0 0 4]'; % Obmedzenia
 hr=[-1, 6];                            % Hranice graf. 
-vykreslitkontury(H,g,hr,5)             % Kontury funkcie
+vykreslitvrstevnice(H,g,hr,5)          % Vrstev. funkcie
 vykreslitobmedzenia(Ac,bc,hr)          % Obmedzenia
 legend('Kont.','u^{\circ}','g_i(u)','AutoUpdate','off')
 axis([hr -1 5])                        % Zobrazenie

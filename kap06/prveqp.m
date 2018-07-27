@@ -5,7 +5,7 @@ g=[-10 -54]';                          % Vektor g
 Ac=[-1  0;  0 -1;  1  1];              % Matica Ac 
 bc=[0 0 4];                            % Vektor bc
 
-vykreslitkontury(H,g,[-1 6],5)         % Kontury funkcie
+vykreslitvrstevnice(H,g,[-1 6],5)         % Vrstev. funkcie
 vykreslitobmedzenia(Ac,bc,[-1 6])      % Obmedzenia
 axis([-1 6 -1 5])
 

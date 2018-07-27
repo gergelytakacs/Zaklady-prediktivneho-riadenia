@@ -3,7 +3,7 @@ function vykreslitgradient(H,g,hranice,fu)
 u = sym('u', [2 1]);                       % Premenna u
 f(u) = 1/2*u'*H*u+g'*u;                    % Kvadrat. f.
 F=f==fu;                                   % Elipsa
-fc=fimplicit(F,hranice,'k','LineWidth',1); % Isociara
+fc=fimplicit(F,hranice,'k','LineWidth',1); % Vrstevnica
 hold on                                    % Podrz graf
 
 h = findobj(gca,'Type','ImplicitFunctionLine');

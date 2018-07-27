@@ -4,9 +4,9 @@ clc; clear; close all;
 H=[2  0; 0 18]; g=[-10 -54]';            % Povodny prob.
 Ac=[-1  0;  0 -1;  1  1]; bc=[0 0 4]';   % Obmedzenia
 hr=[-0.5, 4.5];                          % Hranice graf. 
-vykreslitkontury(H,g,hr,5)               % Kontury funk.
+vykreslitvrstevnice(H,g,hr,5)            % Vrstev. funk.
 vykreslitobmedzenia(Ac,bc,hr)            % Obmedzenia
-legend('Kont.','u^{\circ}','g_i(u)','AutoUpdate','off')
+legend('Vrst.','u^{\circ}','g_i(u)','AutoUpdate','off')
 axis([hr hr])                            % Zobrazenie
 uQP=quadprog(H,g,Ac,bc)                  % Kontrola
 plot(uQP(1),uQP(2),'k^')                 % Nakreslit uQP
