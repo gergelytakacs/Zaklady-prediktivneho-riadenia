@@ -12,3 +12,6 @@
 *DEL*
 *TEMP*
 
+# ignore Simulink compiled files
+*slprj*
+
