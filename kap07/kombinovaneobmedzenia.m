@@ -13,11 +13,11 @@ Rt=1;                                % Rozsirene R
 [H,G]=ucelovafunkcia(At,Bt,np,Qt,Rt,P);% Ucelova f.
 
 % Obmedzenia na amplitudy
-duh=0.01; dul=-duh;                         % Inkrementy
-uh= 0.0125;                                % Amplituda
-xh=[uh 1E8 1E8 1E8 1E8]';                   % Stav
-xl=-xh;                                     % Symetricke 
-[Ac bc]=obmedzenia(dul,duh,xl,xh,np,At,Bt); % Obmedzenia
+duh=0.01; dul=-duh;                        % Inkrementy
+uh= 0.005;                                  % Amplituda
+xh=[uh 1E8 1E8 1E8 1E8]';                  % Stav
+xl=-xh;                                    % Symetricke 
+[Ac b0 B0]=obmedzenia(dul,duh,xl,xh,np,At,Bt); % Obm.
 
 % Vypnut varovania
 H=(H+H')/2;                                  % Symetr.Ak 
@@ -28,7 +28,7 @@ run=20;                                % Dlzka sim.
 X=[0.05 0 0 0]';                       % Poc. stav
 U=0;                                   % Poc. vstup.
 for i=1:run                            % Slucka sim.
-    dU(:,i)=quadprog(H,G*[U(i); X(:,i)],Ac,bc,[],[],[],[],[],o);
+    dU(:,i)=quadprog(H,G*[U(i); X(:,i)],Ac,(b0+B0*[U(i); X(:,i)]),[],[],[],[],[],o);
     U(i+1)=U(i)+dU(1,i);               % Inkrement
     X(:,i+1)=A*X(:,i)+B*U(1,i);        % MPC sim.    
 end
@@ -45,4 +45,14 @@ line([0,run],[uh uh],'Color','k','LineStyle','--')
 line([0,run],[-uh -uh],'Color','k','LineStyle','--')
 ylabel('Vstup  u_k (m)');              % Os y, znacenie
 xlabel('Cas (-)');                     % Os x, znacenie
+
+% Upravenie vysledkov
+subplot(3,1,1)
+axis([0,20,-0.04,0.04])
+subplot(3,1,2)
+legend('\Delta u_k','\Delta u_h','\Delta u_l')
+axis([0,20,-0.0125,0.0125])
+subplot(3,1,3)
+legend('u_k','u_h','u_l')
+axis([0,20,-0.0125,0.0125])
 
