@@ -23,7 +23,7 @@ xl=-xh;                        % Symetricke
 [Ac b0 B0]=obmedzenia(ul,uh,xl,xh,np,A,B); % Obmedzenia
 
 % Filter
-w_var=[0 0 0 1e-5]';    % Rozptyl procesneho sumu
-v_var=[1e-3 1e-3]';     % Rozptyl sumu merania
-Qf=diag(w_var);         % Kovariancna matica proces. sumu
-Rf=diag(v_var);         % Kovariancna matica sumu merania
+w_var=[0 0 0 1e-5]';   % Rozptyl procesneho sumu
+v_var=[1e-3 1e-3]';    % Rozptyl sumu merania
+Qf=diag(w_var);        % Kovariancna matica proces. sumu
+Rf=diag(v_var);        % Kovariancna matica sumu merania
