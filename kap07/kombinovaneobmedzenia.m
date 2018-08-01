@@ -14,7 +14,7 @@ Rt=1;                                % Rozsirene R
 
 % Obmedzenia na amplitudy
 duh=0.01; dul=-duh;                        % Inkrementy
-uh= 0.005;                                  % Amplituda
+uh= 0.01;                                  % Amplituda
 xh=[uh 1E8 1E8 1E8 1E8]';                  % Stav
 xl=-xh;                                    % Symetricke 
 [Ac b0 B0]=obmedzenia(dul,duh,xl,xh,np,At,Bt); % Obm.

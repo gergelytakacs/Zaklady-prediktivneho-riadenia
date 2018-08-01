@@ -1,12 +1,11 @@
-
+clc; clear;
 load kyvadlo.mat               % Linearizovany model
-A=kyvadlo.a; B=kyvadlo.b; C=kyvadlo.c; 
+A=kyvadlo.a; B=kyvadlo.b; C=kyvadlo.C; 
 [nx nu]=size(B);               % Rozmery modelu
 Ts=kyvadlo.Ts;                 % [s] Vzorkovanie modelu
 
 np=50;                         % krokov 
-Q=C'*C;                        % Vahovanie stavov
-%Q=eye(nx); Q(1)=10;           % Ine vahovanie
+Q=eye(nx); Q(1)=10;            % Ine vahovanie
 R=1;                           % Vahovanie vstupu
 
 %% Offline cast
@@ -15,10 +14,16 @@ R=1;                           % Vahovanie vstupu
 H=(H+H')/2;                         % Symetr.Ak 
 
 % Obmedzenia
-uh=5;                          % [N] max sila do vozika
+uh=6;                          % [N] max sila do vozika
 ul=-uh;                        % [N] min sila do vozika
 x1h=0.50;                      % [m] max draha vozika
 x1l=-x1h;                      % [m] min draha vozika
 xh=[x1h 1E8 1E8 1E8]';         % Obm na vsetky stavy
 xl=-xh;                        % Symetricke 
 [Ac b0 B0]=obmedzenia(ul,uh,xl,xh,np,A,B); % Obmedzenia
+
+% Filter
+w_var=[0 0 0 1e-5]';    % Rozptyl procesneho sumu
+v_var=[1e-3 1e-3]';     % Rozptyl sumu merania
+Qf=diag(w_var);         % Kovariancna matica proces. sumu
+Rf=diag(v_var);         % Kovariancna matica sumu merania
