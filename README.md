@@ -74,6 +74,12 @@ You can also use the following BiBTeX database entry:
 
 ## About the book "Basics of Model Predictive Control"
 
+Do you want to know the future? Well, this textbook is about foretelling it. To foretell the future – or, in other words, to predict it – you do not need to study traditional Chinese palm reading, Tarot cards or astrology, and you can do it without psychic or paranormal abilities.
+
+There is a much better alternative offered by the field of automatic control: the mathematical description of physical phenomena, mechatronical systems and industrial processes. With he help of these models, we can formulate a control strategy ensuring the best possible quality by calculating the future dynamic state of the system, thus determining which inputs are optimal in the given time sample and situation. Thanks to the continual progress of computational hardware, model predictive control (MPC) is a modern feedback control method which is being used more and more in the design of high-tech products and in dealing with complex processes and systems in industry. MPC takes into consideration the physical, safety and economical constraints of the given system, and often yields better performance than traditional control algorithms. This book was written mainly for those who have no previous experience with predictive control but are familiar with the basics of control theory and system identification.
+
+The Basics of Predictive Control is richly illustrated, enhanced with examples and simulations. It aims to avoid overly complex explanations and acquaint its readers with the basics of predictive control, so they will understand further works in this field and will be able to create algorithms of their own.
+
 ## Where to buy the book
 
 The book is currently in press.
@@ -87,5 +93,3 @@ Please feel free to report any issues and problems in the home repository of thi
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work [by citing the book Základy Prediktívneho Riadenia (see above for a reference provided)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), provide [link to the license](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/LICENSE), and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
-
-
