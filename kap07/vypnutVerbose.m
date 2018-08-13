@@ -13,6 +13,6 @@ x=[0.1 0 0 0]';                        % Odhadnuty stav
 [Ac bc]=obmedzenia(ul,uh,np);          % Obmedzenia na u
 
 % Vypnut varovania
-H=(H+H')/2;                                  % Symetr.Ak 
-o=optimoptions('quadprog','Display','none'); % Vypnut 
-uopt=quadprog(H,G*x,Ac,bc,[],[],[],[],[],o)  % MPC v k
+H=(H+H')/2;                                 % Symetr. H 
+o=optimoptions('quadprog','Display','none');% Vyp. vypis
+uopt=quadprog(H,G*x,Ac,bc,[],[],[],[],[],o) % MPC - u(k)

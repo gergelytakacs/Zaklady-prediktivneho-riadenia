@@ -1,10 +1,10 @@
 clc; clear all; clf;
 
-Ts=5;                                 % (s) Vzorkovanie
-run=150;                              % Dlzka sim.
-rr=[80 50];                           % (C) Ziadana tep.
-Q=eye(2); R=1; np=15;                 % Vahy a horiz.
-uh=10; ul=0;                          % Obmedzenia
+Ts=5;                                 % Vzorkovanie [s]
+run=150;                              % Dlzka simulacie
+rr=[80 50];                           % Ziadana teplota
+Q=eye(2); R=1; np=15;                 % Vahy a horizont
+uh=10; ul=0;                          % Min a max vstup
 
 k=10; tau=60;                         % Parametre modelu
 Ac=-1/tau; Bc=k/tau; Cc=1; Dc=0;      % Spojity model
@@ -17,17 +17,17 @@ Bt=[0; B];                            % Rozsirene B
 X=25'; xI=0;                          % Pociatoc. stav.                     
 
 % Offline MPC
-[K,P]=iterdlqr(At,Bt,Q,R,100);        % Koncove vah.  
-[H,G]=ucelovafunkcia(At,Bt,np,Q,R,P); % Ucelova f.
+[K,P]=iterdlqr(At,Bt,Q,R,100);        % Konc. vahovanie  
+[H,G]=ucelovafunkcia(At,Bt,np,Q,R,P); % Ucelova funkcia
 [Ac bc]=obmedzenia(ul,uh,np);         % Obmedzenia u
 
 % Vypnut varovania
-H=(H+H')/2;                                     % Symetr
+H=(H+H')/2;                                     % Sym. H
 o=optimoptions('quadprog','Display','none');    % Vypnut
 warning('off','Control:analysis:LsimStartTime') % Lsim
 
 % Simulacia (a online MPC)                              
-for i=1:run                              % Slucka sim.
+for i=1:run                              % Simul. slucka
  if i<=run/2; r=rr(1); else r=rr(2); end % Referencia   
  xI=xI+(r-X(i));                         % Integrator
  U(:,i)=quadprog(H,G*[xI; X(:,i)],Ac,bc,[],[],[],[],[],o);
@@ -36,8 +36,8 @@ for i=1:run                              % Slucka sim.
 end
 
 % Zobrazenie vysledkov
-vykreslitXU(X,U(1,:));                   % Zobrazenie
-line([0,run],[uh uh],'Color','k','LineStyle','--')
-line([0,run],[ul ul],'Color','k','LineStyle','--')
+vykreslitXU(X,U(1,:));                 % Vykreslenie x,u
+line([0,run],[uh uh],'Color','k','LineStyle','--')  % uh
+line([0,run],[ul ul],'Color','k','LineStyle','--')  % ul
 
 
