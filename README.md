@@ -5,7 +5,7 @@
 ## Citácia
 Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
 
-Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018.
+Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018. ISBN 978-80-227-4826-1.
 
 Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
 
@@ -19,7 +19,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
   address =       {Bratislava,
   year =          {2018},
   edition =       {1.},
-  isbn =          {XXX-X-XXX},
+  isbn =          {978-80-227-4826-1},
 }
 
 ```
@@ -41,7 +41,7 @@ The code is commented in the Slovak language, however, may be useful to anyone.
 If you find this repository or the book useful, please cite it as:
 
 Gergely Takács and Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava,
-Slovakia, 1. edition, 2018. In Slovak language. (Fundamentals of Predictive Control).
+Slovakia, 1. edition, 2018. ISBN 978-80-227-4826-1. In Slovak language. (Fundamentals of Predictive Control).
 
 You can also use the BiBTeX database entry:
 
@@ -53,7 +53,7 @@ You can also use the BiBTeX database entry:
   address =       {Bratislava, Slovakia},
   year =          {2018},
   edition =       {1.},
-  isbn =          {XXX-X-XXX},
+  isbn =          {978-80-227-4826-1.},
   note =          {In Slovak language. (Fundamentals of Predictive Control)}
 }
 
