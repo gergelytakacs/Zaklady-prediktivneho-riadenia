@@ -1,10 +1,8 @@
-# Po Slovensky (English below)
-
-## Príklady pre knihu "Základy prediktívneho riadenia"
+# Príklady pre knihu "Základy prediktívneho riadenia"(English below)
 
 ## TL;DR:
 
-### Citácia
+## Citácia
 Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
 
 Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018. ISBN 978-80-227-4826-1.
@@ -24,7 +22,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
 
 ```
 
-### O knihe "Základy prediktívneho riadenia"
+## O knihe "Základy prediktívneho riadenia"
 
 Chceš spoznať budúcnosť? ...lebo táto učebnica je práve o predpovedaní budúcnosti. Na predpoveď budúcnosti—inými slovami na predikciu—však nebudeme potrebovať postupy tradičného čínskeho veštenia z ruky, ani tarotové karty, astrológiu, jasnovidectvo alebo iné paranormálne schopnosti. 
 
@@ -32,20 +30,18 @@ V oblasti automatického riadenia máme k dispozícii niečo oveľa lepšie: mat
 
 Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplnosť didaktického prístupu bohato graficky ilustrované, doplnené príkladmi a počítačovými. Učebnica sa vyhýba zbytočne zložitému výkladu niektorých konceptov a dáva dôraz na pedagogickú kvalitu textu. Cieľom je poskytnúť čitateľovi potrebné základy MPC, tak, aby v budúcnosti mohol sebavedome otvoriť aj práce s hlbším záberom problematiky, a v konečnom dôsledku tak realizovať moderné interpretácie algoritmov prediktívneho riadenia.
 
-### Kde kúpiť knihu
+## Kde kúpiť knihu
 
 Kniha je momentálne v tlači.
 
-# English
+# Examples for the book "Basics of Model Predictive Control"
 
-## Examples for the book "Basics of Model Predictive Control"
-
-### TL;DR:
+## TL;DR:
 
 This repository contains worked examples in the field of model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language.The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you find this code useful, please cite the book in your own work.
 
 
-### Citation
+## Citation
 
 If you find this software repository or the book useful, please cite it as:
 
@@ -68,12 +64,12 @@ You can also use the following BiBTeX database entry:
 
 ```
 
-### Licensing
+## Licensing
 
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book Základy Prediktívneho Riadenia (see above for a reference provided), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
 
-### Where to buy the book
+## Where to buy the book
 
 The book is currently in press.
