@@ -16,7 +16,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
   author =        {Gergely Tak\'{a}cs and Martin Gulan},
   title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
   publisher =     {Spektrum STU},
-  address =       {Bratislava,
+  address =       {Bratislava},
   year =          {2018},
   edition =       {1.},
   isbn =          {978-80-227-4826-1},
