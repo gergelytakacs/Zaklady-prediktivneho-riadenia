@@ -80,7 +80,7 @@ The book is currently in press.
 
 ## Issues and Pull Requests
 
-Please feel free to report any issues and problems in the home repository of this example collection by using the [Issues](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/issues) option at the top. If you have corrected a bug in our code or augmented its functionality, please open a [Pull Request](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/pulls) and we will merge your changes after revision.
+Please feel free to report any issues and problems in the home repository of this example collection by using the [Issues](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/issues) option at the top. If you have corrected a bug in our code or augmented its functionality, please open a [Pull request](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/pulls) and we will merge your changes after revision.
 
 ## Licensing
 
