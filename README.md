@@ -1,6 +1,6 @@
 # Príklady pre knihu "Základy prediktívneho riadenia"
 
-(for the English of this text see below)
+[For the English of this text see below](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#examples-for-the-book-basics-of-model-predictive-control).
 
 ## TL;DR:
 
