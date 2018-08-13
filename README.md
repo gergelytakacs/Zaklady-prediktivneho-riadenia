@@ -36,12 +36,18 @@ Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplno
 
 Kniha je momentálne v tlači.
 
+## Hlásenie Chýb
+
+
+## Licencia
+
+
+
 # Examples for the book "Basics of Model Predictive Control"
 
 ## TL;DR:
 
 This repository contains worked examples in the field of model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language.The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you find this code useful, please cite the book in your own work.
-
 
 ## Citation
 
@@ -66,12 +72,20 @@ You can also use the following BiBTeX database entry:
 
 ```
 
+## About the book "Basics of Model Predictive Control"
+
+## Where to buy the book
+
+The book is currently in press.
+
+## Issues and Pull Requests
+
+Please feel free to report any issues and problems in the home repository of this example collection by using the [Issues](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/issues) option at the top. If you have corrected a bug in our code or augmented its functionality, please open a [Pull Request](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/pulls) and we will merge your changes after revision.
+
 ## Licensing
 
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work [by citing the book Základy Prediktívneho Riadenia (see above for a reference provided)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), provide [link to the license](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/LICENSE), and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
 
-## Where to buy the book
 
-The book is currently in press.
