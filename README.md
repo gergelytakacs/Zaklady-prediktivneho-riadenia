@@ -70,7 +70,7 @@ You can also use the following BiBTeX database entry:
 
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work [by citing the book Základy Prediktívneho Riadenia (see above for a reference provided)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
+You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work [by citing the book Základy Prediktívneho Riadenia (see above for a reference provided)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), provide [link to the license](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/LICENSE), and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
 
 ## Where to buy the book
 
