@@ -4,7 +4,7 @@
 
 ## TL;DR:
 
-Tento repozitár obsahuje vypracované príklady z oblasti prediktívneho riadenia použité v knihe "Základy Prediktívneho Riadenia". Príklady sú napísané v prostredí programu MATLAB a Simulink. Samotný kód je komentovaný v slovenskom jazyku. Kód podlieha licencii [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Ak ti bol kód užitočný, cituj prosím knihu vo svojej práci.
+Tento repozitár obsahuje vypracované príklady z oblasti prediktívneho riadenia použité v knihe "Základy Prediktívneho Riadenia". Príklady sú napísané v prostredí programu MATLAB a Simulink. Samotný kód je komentovaný v slovenskom jazyku. Kód podlieha licencii [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Ak bol pre teba kód užitočný, cituj prosím knihu vo svojej práci.
 
 ## Citácia
 
@@ -47,7 +47,7 @@ Ak nájdeš nejaké problémy alebo nejasnosti, nahlás ich prosím v domácom r
 
 Kód a príklady dostupné v tomto repozitári podliehajú licencii [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Materiál môžeš zdieľať, kopírovať a šíriť na akomkoľvek formáte alebo médiu; prípadne môžeš daný materiál adaptovať, zmiešavať, pretvárať alebo na ňom ďalej stavať. Prosíme ťa však, aby si našu prácu náležite ocenil [citovaním knihy Základy Prediktívneho Riadenia (viď vyššie uvedený odkaz)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), uveď [odkaz na licenciu](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/LICENSE), a uveď aké zmeny boli vykonané. Môžeš tak urobiť akýmkoľvek opodstatneným spôsobom, ale nie takým, ktorý by naznačoval, že udeľovateľ licencie autorizuje teba alebo použitie v tvojej práci. Toto je nekomerčná licencia, čo znamená, že daný materiál nemôžeš použiť na komerčné účely.
+Materiál môžeš zdieľať, kopírovať a šíriť na akomkoľvek formáte alebo médiu; prípadne môžeš daný materiál adaptovať, zmiešavať, pretvárať alebo na ňom ďalej stavať. Prosíme ťa však, aby si našu prácu náležite ocenil [citovaním knihy Základy Prediktívneho Riadenia (viď vyššie uvedený odkaz)](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/README.md#citation), uvedením [odkazu na licenciu](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/LICENSE), a uvedením vykonaných zmien. Môžeš tak urobiť akýmkoľvek opodstatneným spôsobom, ale nie takým, ktorý by naznačoval, že udeľovateľ licencie autorizuje teba alebo použitie v tvojej práci. Toto je nekomerčná licencia, čo znamená, že daný materiál nemôžeš použiť na komerčné účely.
 
 # Examples for the book "Basics of Model Predictive Control"
 
