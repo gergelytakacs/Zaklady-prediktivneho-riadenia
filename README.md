@@ -2,7 +2,7 @@
 
 ## Príklady pre knihu "Základy prediktívneho riadenia"
 
-## Citácia
+### Citácia
 Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
 
 Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava, 1. vydanie, 2018. ISBN 978-80-227-4826-1.
@@ -24,7 +24,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
 
 ```
 
-## O knihe "Základy prediktívneho riadenia"
+### O knihe "Základy prediktívneho riadenia"
 
 Chceš spoznať budúcnosť? ...lebo táto učebnica je práve o predpovedaní budúcnosti. Na predpoveď budúcnosti—inými slovami na predikciu—však nebudeme potrebovať postupy tradičného čínskeho veštenia z ruky, ani tarotové karty, astrológiu, jasnovidectvo alebo iné paranormálne schopnosti. 
 
@@ -36,10 +36,12 @@ Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplno
 
 ## Examples for the book "Basics of Model Predictive Control"
 
-TL;DR: This repository contains worked examples in model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language, however, may be useful to some. The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+###TL;DR
+
+This repository contains worked examples in model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language, however, may be useful to some. The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 
-## Citation
+### Citation
 
 
 If you find this repository or the book useful, please cite it as:
@@ -63,9 +65,8 @@ You can also use the BiBTeX database entry:
 
 ```
 
-## Licensing
+### Licensing
 
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book ``Základy Prediktívneho Riadenia'', provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
-
+You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book ``Základy Prediktívneho Riadenia'' (see above for a reference provided), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
