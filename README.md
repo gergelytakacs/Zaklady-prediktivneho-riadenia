@@ -12,7 +12,7 @@ Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
 
 ```
 
-@BOOK{Takacs2018,
+@BOOK{TakacsGulan2018,
   author =        {Gergely Tak\'{a}cs and Martin Gulan},
   title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
   publisher =     {Spektrum STU},
@@ -46,7 +46,7 @@ Slovakia, 1. edition, 2018. ISBN 978-80-227-4826-1. In Slovak language. (Fundame
 You can also use the BiBTeX database entry:
 
 ```
-@BOOK{Takacs2018,
+@BOOK{TakacsGulan2018,
   author =        {Gergely Tak\'{a}cs and Martin Gulan},
   title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
   publisher =     {Spektrum STU},
