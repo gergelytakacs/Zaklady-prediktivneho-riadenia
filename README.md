@@ -36,10 +36,7 @@ Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplno
 
 ## Examples for the book "Basics of Model Predictive Control"
 
-This repository contains worked examples in model predictive control for the Slovak language book "Basics of Model Predictive Control".
-
-The code is commented in the Slovak language, however, may be useful to anyone.
-
+TL;DR: This repository contains worked examples in model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language, however, may be useful to some. The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 
 ## Citation
@@ -65,3 +62,10 @@ You can also use the BiBTeX database entry:
 }
 
 ```
+
+## Licensing
+
+The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book ``Základy Prediktívneho Riadenia'', provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
+
