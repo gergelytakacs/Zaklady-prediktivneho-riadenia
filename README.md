@@ -1,4 +1,5 @@
-# Príklady pre knihu "Základy prediktívneho riadenia"(English below)
+# Príklady pre knihu "Základy prediktívneho riadenia"
+## (for English see below)
 
 ## TL;DR:
 
