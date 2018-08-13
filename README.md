@@ -1,4 +1,4 @@
-# Po Slovensky
+# Po Slovensky (English below)
 
 ## Príklady pre knihu "Základy prediktívneho riadenia"
 
