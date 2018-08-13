@@ -2,6 +2,8 @@
 
 ## Príklady pre knihu "Základy prediktívneho riadenia"
 
+## TL;DR:
+
 ### Citácia
 Ak nájdeš využitie pre tento repozitár, alebo páči sa ti samotná kniha, prosím cituj to ako: 
 
@@ -9,9 +11,7 @@ Gergely Takács a Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU
 
 Alternatívne môžeš využívať aj nasledovný databázový záznam v BiBTeX:
 
-
 ```
-
 @BOOK{TakacsGulan2018,
   author =        {Gergely Tak\'{a}cs and Martin Gulan},
   title =         {{Z\'{a}klady Predikt\'{i}vneho Riadenia}},
@@ -32,6 +32,10 @@ V oblasti automatického riadenia máme k dispozícii niečo oveľa lepšie: mat
 
 Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplnosť didaktického prístupu bohato graficky ilustrované, doplnené príkladmi a počítačovými. Učebnica sa vyhýba zbytočne zložitému výkladu niektorých konceptov a dáva dôraz na pedagogickú kvalitu textu. Cieľom je poskytnúť čitateľovi potrebné základy MPC, tak, aby v budúcnosti mohol sebavedome otvoriť aj práce s hlbším záberom problematiky, a v konečnom dôsledku tak realizovať moderné interpretácie algoritmov prediktívneho riadenia.
 
+### Kde kúpiť knihu
+
+Kniha je momentálne v tlači.
+
 # English
 
 ## Examples for the book "Basics of Model Predictive Control"
@@ -43,13 +47,12 @@ This repository contains worked examples in the field of model predictive contro
 
 ### Citation
 
-
-If you find this repository or the book useful, please cite it as:
+If you find this software repository or the book useful, please cite it as:
 
 Gergely Takács and Martin Gulan. _Základy Prediktívneho Riadenia_. Spektrum STU, Bratislava,
 Slovakia, 1. edition, 2018. ISBN 978-80-227-4826-1. In Slovak language. (Fundamentals of Predictive Control).
 
-You can also use the BiBTeX database entry:
+You can also use the following BiBTeX database entry:
 
 ```
 @BOOK{TakacsGulan2018,
@@ -69,4 +72,8 @@ You can also use the BiBTeX database entry:
 
 The code and examples available in this repository are licensed according to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book ``Základy Prediktívneho Riadenia'' (see above for a reference provided), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
+You may share, copy and redistribute the material in any medium or format; additionally you may adapt, remix, transform, and build upon the material. However, we ask you to give appropriate credit to our work by citing the book Základy Prediktívneho Riadenia (see above for a reference provided), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. This is a non-commercial license, that is, you may not use the material for commercial purposes.
+
+### Where to buy the book
+
+The book is currently in press.
