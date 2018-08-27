@@ -35,5 +35,6 @@ for i=1:run                           % Slucka simulacie
 end                                   % Koniec slucky
 figure(2)                             % Nove graf. okno                          
 plot(C*X); hold on; plot(C*Xo);       % Vystup
-xlabel('Cas (-)'); ylabel('\Delta x (m)')
-grid on; legend('MPC','Bez riadenia');% Mriezka, legenda
+xlabel('Cas (-)'); ylabel('\Delta x (m)')   % Oznac. osi
+grid on                                     % Mriezka
+legend('MPC','Bez riadenia')                % Legenda

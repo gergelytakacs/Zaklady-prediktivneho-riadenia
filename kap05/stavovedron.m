@@ -10,11 +10,8 @@ xl=[0 0 0 -1.5 -1.5 -1.5 -15 -15 -15 -1 -1 -1]';
 Ac=[ N; -N]                               % Matica Ac
 B0=[-M;  M]                               % Matica B0
 
-One=[];                                   % Prazdna 1
-for i=1:np                                % Cez horizont 
-    One=[One; eye(nx)];                   % Vyplnenie 1
-end                                       % Koniec cyklu
-b0=[One*xh;-One*xl];                      % Matica b0
+b0=[ repmat(eye(nx),np,1)*xh;             % Matica b0
+    -repmat(eye(nx),np,1)*xl];            % ...
 
 
 

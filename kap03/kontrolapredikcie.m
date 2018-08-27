@@ -4,11 +4,11 @@ A=[0 1; -0.5 1]; % Matica dynamiky
 B=[0 1]';        % Matica vstupu
 x0=[1; 0];       % Pociatocny stav
 np=10;           % Horizont
-u=ones(np,1);    % Jednotokovy skok
+u=ones(np,1);    % Jednotkovy skok
 
 M=predikciaM(A,np);   % Matica M
 N=predikciaN(A,B,np); % Matica N
-xpr=M*x0+N*u;         % Predikcna rov.
+xpr=M*x0+N*u;         % Predikcna rovnica
 
 sys=ss(A,B,[],[],1);          % Stavovy objekt
 t=1:1:np;                     % Casovy vektor

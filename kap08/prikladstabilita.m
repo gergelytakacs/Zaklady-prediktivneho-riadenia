@@ -25,8 +25,7 @@ ylabel('Vystup y_k (-)')                 % Oznac. osi y
 grid on                                  % Mriezka
 subplot(3,1,2)                           % Graf 2
 stairs(u(1,:),'LineWidth',1,'Marker','.')% Vstup
-hold on                                  % Podrz graf
-grid on                                  % Mriezka 
+hold on; grid on                         % Podrz+mriezka
 line([0,run],[uh uh],'Color','k','LineStyle','--')  % uh
 line([0,run],[ul ul],'Color','k','LineStyle','--')  % ul
 xlabel('Cas (-)')                        % Oznac. osi x

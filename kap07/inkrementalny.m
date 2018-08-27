@@ -4,7 +4,7 @@ load bus.mat                           % Nacitaj model
 A=bus.a; B=bus.b(:,2);  C=bus.c;       % Model autobusu
 Q=C'*C; R=0.01; np=10;                 % Vahy a horizont
 
-[nx nu]=size(B);                       % Rozmery modelu
+[nx,nu]=size(B);                       % Rozmery modelu
 ny=size(C,1);                          % ...                    
 duh=0.01; dul=-duh;                    % Obmedzenia du
 
@@ -20,7 +20,7 @@ Rt=1;                                  % Rozsirene R
 % Offline cast
 [K,P]=iterdlqr(At,Bt,Qt,Rt,100);       % Vahovanie xnp  
 [H,G]=ucelovafunkcia(At,Bt,np,Qt,Rt,P);% Ucelova funkcia
-[Ac bc]=obmedzenia(dul,duh,np);        % Obmedzenia na u
+[Ac,bc]=obmedzenia(dul,duh,np);        % Obmedzenia na u
 
 % Vypnut varovania
 H=(H+H')/2;                                 % Symetr. H 

@@ -44,8 +44,7 @@ while(riesenie~=1)                     % Kym nemame rie.
     else                               % Zlucitelne ries
         up=up+du;                      % Neporusene obm.
         plot(up(1),up(2),'k+');        % Vykreslit up         
-        AC=Ac(a==1,:);                 % Obmedzenia v ap
-        BC=bc(a==1);                   % Obmedzenia v ap
+        AC=Ac(a==1,:);  BC=bc(a==1);   % Obmedzenia v ap
         [NO n]=size(AC);               % Pocet obm.
         WW=[H  AC'; AC zeros(NO)];     % Lava strana
         VV=[-g; BC];                   % Prava strana

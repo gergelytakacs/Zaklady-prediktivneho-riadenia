@@ -17,10 +17,9 @@ model=c2d(model,Ts);          % Diskretizacia
 A=model.a; B=model.b;         % Matice A a B disk. mod.
 
 step(b777*u)                  % "Skutocna" odozva
-hold on                       % Neprekreslovat
+hold on; grid on              % Podrz graf, mriezka
 step(model*u)                 % Odozva modelu
 axis([0 10 0 0.4])            % Nastavenie osi
-grid on                       % Mriezka
 xlabel('Cas')                 % Os x
 ylabel('Uhol (rad)')          % Os y
 
