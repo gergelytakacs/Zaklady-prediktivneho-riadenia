@@ -16,4 +16,4 @@ plot(PSI)                       % Vykreslenie vysledku
 grid on                         % Mriezka
 xlabel('Cas (kroky)')           % Os X
 ylabel('Hodnota elementov (-)') % Os Y a legenda
-legend('(A+BK)(1,1)','(A+BK)(2,1)','(A+BK)(1,2)','(A+BK){(2,2)')
+legend('(A+BK)(1,1)','(A+BK)(2,1)','(A+BK)(1,2)','(A+BK)(2,2)')
