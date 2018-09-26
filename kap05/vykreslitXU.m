@@ -1,4 +1,4 @@
-function vykreslitXU(x,u)  % Funkcia na vykreslenie x,x
+function vykreslitXU(x,u)  % Funkcia na vykreslenie x,u
 
  persistent X U                       % Trvale premenne
  if isempty(X)                        % Ak este neexist.
