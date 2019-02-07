@@ -4,7 +4,7 @@
 
 ## TL;DR:
 
-Tento repozitár obsahuje vypracované príklady z oblasti prediktívneho riadenia použité v knihe "Základy Prediktívneho Riadenia". Príklady sú napísané v prostredí programu MATLAB a Simulink. Samotný kód je komentovaný v slovenskom jazyku. Kód podlieha licencii [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Ak bol pre teba kód užitočný, cituj prosím knihu vo svojej práci.
+Tento repozitár obsahuje vypracované príklady z oblasti prediktívneho riadenia použité v knihe "[Základy Prediktívneho Riadenia](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf)". Príklady sú napísané v prostredí programu MATLAB a Simulink. Samotný kód je komentovaný v slovenskom jazyku. Kód podlieha licencii [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Ak bol pre teba kód užitočný, cituj prosím knihu vo svojej práci.
 
 ![Kniha](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/zpr.jpg)
 
@@ -67,7 +67,7 @@ Materiál môžeš zdieľať, kopírovať a šíriť na akomkoľvek formáte ale
 
 ## TL;DR:
 
-This repository contains worked examples in the field of model predictive control for the Slovak language book "Basics of Model Predictive Control". The examples are written in MATLAB and Simulink. The code is commented in the Slovak language.The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you find this code useful, please cite the book in your own work.
+This repository contains worked examples in the field of model predictive control for the Slovak language book "[Basics of Model Predictive Control](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf)" (Základy Prediktívneho Riadenia). The examples are written in MATLAB and Simulink. The code is commented in the Slovak language. The code is licenced under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). If you find this code useful, please cite the book in your own work.
 
 ![Book](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/zpr.jpg)
 
