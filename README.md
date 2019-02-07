@@ -37,7 +37,19 @@ Nové poznatky v učebnici „Základy prediktívneho riadenia“ sú pre úplno
 
 ## Kde kúpiť knihu
 
-Kniha je momentálne v tlači.
+Knihu môžeš kúpiť z nasledovných obchodov:
+- [Vydavateľstvo SPEKTRUM STU](http://www.vydavatelstvo.stuba.sk/obchod/zaklady-prediktivneho-riadenia)
+- [Panta Rhei](https://www.pantarhei.sk/knihy/ucebnice-slovniky/pre-vysoke-skoly/zaklady-prediktivneho-riadenia.html)
+- [literama](https://www.literama.sk/sk/knihy/349248/zaklady-prediktivneho-riadenia)
+- [MEGAKNIHY](https://www.megaknihy.sk/vysoka-skola/333389-zaklady-prediktivneho-riadenia.html)
+- [preskoly.sk](https://www.preskoly.sk/p/472384-zaklady-prediktivneho-riadenia/)
+- [moja-kniha.sk](https://www.moja-kniha.sk/kniha/zaklady-prediktivneho-riadenia)
+- [vydavatel.sk](https://www.vydavatel.sk/kniha/zaklady-prediktivneho-riadenia)
+- [Hrebenda.sk](https://hrebenda.sk/predaj/392157/zaklady-prediktivneho-riadenia/)
+- [Knihy Pre Každého](https://www.knihyprekazdeho.sk/Kniha/zaklady-prediktivneho-riadenia-1255217)
+- [AhaKniha.sk](https://ahakniha.sk/predaj/527881/zaklady-prediktivneho-riadenia/)
+
+Elektronickú verziu knihy môžeš [stiahnuť tu](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf). Táto elektronická verzia diela je plne identická s tlačenou knihou.
 
 ## Nahlásenie chýb
 
