@@ -100,7 +100,19 @@ The Basics of Predictive Control is richly illustrated, enhanced with examples a
 
 ## Where to buy the book
 
-The book is currently in press.
+You may purchase the book in the following places:
+- [Vydavateľstvo SPEKTRUM STU](http://www.vydavatelstvo.stuba.sk/obchod/zaklady-prediktivneho-riadenia)
+- [Panta Rhei](https://www.pantarhei.sk/knihy/ucebnice-slovniky/pre-vysoke-skoly/zaklady-prediktivneho-riadenia.html)
+- [literama](https://www.literama.sk/sk/knihy/349248/zaklady-prediktivneho-riadenia)
+- [MEGAKNIHY](https://www.megaknihy.sk/vysoka-skola/333389-zaklady-prediktivneho-riadenia.html)
+- [preskoly.sk](https://www.preskoly.sk/p/472384-zaklady-prediktivneho-riadenia/)
+- [moja-kniha.sk](https://www.moja-kniha.sk/kniha/zaklady-prediktivneho-riadenia)
+- [vydavatel.sk](https://www.vydavatel.sk/kniha/zaklady-prediktivneho-riadenia)
+- [Hrebenda.sk](https://hrebenda.sk/predaj/392157/zaklady-prediktivneho-riadenia/)
+- [Knihy Pre Každého](https://www.knihyprekazdeho.sk/Kniha/zaklady-prediktivneho-riadenia-1255217)
+- [AhaKniha.sk](https://ahakniha.sk/predaj/527881/zaklady-prediktivneho-riadenia/)
+
+You may also download the electronic version of the book [from here](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf). This e-book of our work is completely identical with the printed vesion.
 
 ## Issues and Pull Requests
 
