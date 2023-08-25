@@ -45,11 +45,8 @@ Knihu môžeš kúpiť z nasledovných obchodov:
 - [literama](https://www.literama.sk/sk/knihy/349248/zaklady-prediktivneho-riadenia)
 - [MEGAKNIHY](https://www.megaknihy.sk/vysoka-skola/333389-zaklady-prediktivneho-riadenia.html)
 - [preskoly.sk](https://www.preskoly.sk/p/472384-zaklady-prediktivneho-riadenia/)
-- [moja-kniha.sk](https://www.moja-kniha.sk/kniha/zaklady-prediktivneho-riadenia)
 - [vydavatel.sk](https://www.vydavatel.sk/kniha/zaklady-prediktivneho-riadenia)
-- [Hrebenda.sk](https://hrebenda.sk/predaj/392157/zaklady-prediktivneho-riadenia/)
 - [Knihy Pre Každého](https://www.knihyprekazdeho.sk/Kniha/zaklady-prediktivneho-riadenia-1255217)
-- [AhaKniha.sk](https://ahakniha.sk/predaj/527881/zaklady-prediktivneho-riadenia/)
 
 Elektronickú verziu knihy môžeš [stiahnuť tu](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf). Táto elektronická verzia diela je plne identická s tlačenou knihou.
 
@@ -110,11 +107,8 @@ You may purchase the book in the following places:
 - [literama](https://www.literama.sk/sk/knihy/349248/zaklady-prediktivneho-riadenia)
 - [MEGAKNIHY](https://www.megaknihy.sk/vysoka-skola/333389-zaklady-prediktivneho-riadenia.html)
 - [preskoly.sk](https://www.preskoly.sk/p/472384-zaklady-prediktivneho-riadenia/)
-- [moja-kniha.sk](https://www.moja-kniha.sk/kniha/zaklady-prediktivneho-riadenia)
 - [vydavatel.sk](https://www.vydavatel.sk/kniha/zaklady-prediktivneho-riadenia)
-- [Hrebenda.sk](https://hrebenda.sk/predaj/392157/zaklady-prediktivneho-riadenia/)
 - [Knihy Pre Každého](https://www.knihyprekazdeho.sk/Kniha/zaklady-prediktivneho-riadenia-1255217)
-- [AhaKniha.sk](https://ahakniha.sk/predaj/527881/zaklady-prediktivneho-riadenia/)
 
 You may also download the electronic version of the book [from here](https://github.com/gergelytakacs/Zaklady-prediktivneho-riadenia/blob/master/Zaklady_Prediktivneho_Riadenia.pdf). This e-book of our work is completely identical with the printed vesion.
 
